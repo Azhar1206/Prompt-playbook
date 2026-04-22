@@ -6,8 +6,6 @@ This project is a curated collection of prompt engineering techniques that I hav
 
 ## What's Inside
 
-## What's Inside
-
 This repository will document the following prompt engineering techniques:
 
 - Be Clear and Direct  
