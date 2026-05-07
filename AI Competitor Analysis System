@@ -1,158 +1,128 @@
- ## Case Study: NVIDIA Business Intelligence Analysis
+# Workflow #2 — AI Competitor Analysis System  
+## Case Study: NVIDIA Business Intelligence Analysis
 
 ---
 
-##  What This Project Is
+## What This Project Is
 
-This is not just a report.
-
-This is a **repeatable AI system** that:
- Takes any company name  
- Produces a full competitive analysis  
- Delivers executive-level insights in minutes  
+This is a repeatable AI system that:  
+- Takes any company name  
+- Produces a full competitive analysis  
+- Delivers executive-level insights in minutes  
 
 ---
 
-##  How The System Works
+## How The System Works
 
 ```
-INPUT → Company Name
-   ↓
-[Step 1] Research
-   ↓
-[Step 2] Competitor Comparison
-   ↓
-[Step 3] Strategic Analysis
-   ↓
-[Step 4] Executive Summary
-   ↓
-OUTPUT → Business Decision Report
+INPUT → Company Name  
+   ↓  
+Step 1: Research  
+   ↓  
+Step 2: Competitor Comparison  
+   ↓  
+Step 3: Strategic Analysis  
+   ↓  
+Step 4: Executive Summary  
+   ↓  
+OUTPUT → Business Decision Report  
 ```
 
 ---
 
-##  Why This Matters
+## Why This Matters
 
-Businesses pay for:
-- Market research
-- Competitor analysis
-- Strategic recommendations
+Businesses pay for:  
+- Market research  
+- Competitor analysis  
+- Strategic recommendations  
 
-This workflow automates **all three**.
-
----
-
-#  Reusable Prompt System
-
-Below is the exact prompt system used to generate this analysis.
-
-##  MASTER PROMPT
-
-```
-Act as a senior business analyst.
-
-Analyze the company: [COMPANY NAME]
-
-Step 1: Provide a structured breakdown including:
-- Financial overview
-- Strengths
-- Weaknesses
-- Target audience
-- Products/services
-
-Step 2: Identify 3 direct competitors and compare using a table:
-Columns: Company, Strengths, Weaknesses, Market Position, Key Offerings
-
-Step 3: Analyze:
-- Key risks
-- Market gaps
-- Strategic opportunities
-
-Step 4: Deliver:
-Create a one-page executive summary for decision-makers.
-```
-
- Replace `[COMPANY NAME]` to reuse this system.
+This workflow automates all three.
 
 ---
 
-#  Output Example — NVIDIA
+## Master Prompt Chain (Deep Version)
 
-##  Key Insight
-NVIDIA is not just a chip company — it is the **infrastructure layer of AI**.
+1. **Research:**  
+   Act as a senior business analyst. Analyze the company: [COMPANY NAME]. Provide a structured breakdown: financials, strengths, weaknesses, target audience, products/services.  
+   
+2. **Compare:**  
+   Identify 3 direct competitors. Compare them using a table with columns: Company, Strengths, Weaknesses, Market Position, Key Offerings.  
+   
+3. **Analyze:**  
+   Identify:  
+   - Strategic risks  
+   - Market gaps  
+   - Differentiation opportunities  
+   
+4. **Deliver:**  
+   Create a one-page executive summary for decision-makers.
 
 ---
 
-##  Strengths
-- Dominant ~80% market share
-- CUDA software moat
-- High margins (~75%)
+## Output Example — NVIDIA Analysis
+
+### Key Highlights
+- Revenue: $215.9B (+65% YoY)  
+- Gross Margin: 75%  
+- Market Share: ~80% in AI accelerators  
+- Pipeline: $500B+  
+
+### Strengths
+- CUDA software moat (20+ years)  
+- High margins (~75%)  
 - Full-stack ecosystem
 
----
-
-##  Weaknesses
-- Customer concentration risk
-- China revenue loss
+### Weaknesses
+- Customer concentration risk  
+- China revenue loss  
 - Supply chain dependency
-- Rising ASIC competition
 
 ---
 
-#  Competitor Snapshot
+## Competitor Snapshot
 
-| Company | Position |
-|--------|---------|
-| NVIDIA | Market leader |
-| AMD | Cost-focused challenger |
-| Broadcom | Custom chip enabler |
-| Google TPU | Vertical AI ecosystem |
-
----
-
-#  Strategic Insight
- The real battle is shifting from **training → inference**
-
-This opens the door for:
-- Custom chips (TPUs, ASICs)
-- Cost-based competition
+| Company | Strengths | Weaknesses | Position |
+|---------|----------|------------|----------|
+| **NVIDIA** | Software moat, high margins, full stack | Customer concentration | Leader (~80%) |
+| **AMD** | Cost-effective, growing market share | Weaker software ecosystem | #2 challenger |
+| **Broadcom** | Custom AI chips for hyperscalers | No broad product offering | Infrastructure enabler |
+| **Google TPU** | Vertical integration (chip → cloud) | Limited external access | Major long-term threat |
 
 ---
 
-#  Executive Summary
+## Strategic Insight
 
-NVIDIA dominates today.
-
-But tomorrow’s winner will depend on:
-- Cost efficiency
-- Software ecosystem
-- Adaptability to inference workloads
+The real battle is moving from training to inference. This creates opportunities for custom chips and cost-driven competition.
 
 ---
 
-#  What This Demonstrates
+## Executive Summary
+
+NVIDIA leads AI infrastructure with unmatched scale and innovation. The future hinges on cost efficiency and software integration.
+
+---
+
+## What This Demonstrates
 
 - AI workflow design  
 - Prompt engineering  
 - Business thinking  
 - Structured analysis  
-- Real-world application  
+- Real-world business applications
 
 ---
 
-#  How This Can Be Used (Client View)
+## How This Can Be Used
 
-This system can help businesses:
-- Analyze competitors in minutes  
+This system helps businesses:  
+- Rapidly analyze competitors  
 - Identify market gaps  
-- Make faster strategic decisions  
+- Make faster, data-driven decisions
 
 ---
 
-#  Final Thought
-
-This is not just analysis.
-
- This is a **business tool powered by AI**
-
----
+## Tools Used
+- Claude AI  
+- ChatGPT prompt structuring  
+- GitHub portfolio
